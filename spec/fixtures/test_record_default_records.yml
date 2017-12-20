@@ -1,0 +1,50 @@
+- domain_id: 1
+  name: hoge.jp
+  type: NS
+  content: 192.168.74.10
+  ttl: 1800
+
+- domain_id: 1
+  name: hoge.jp
+  type: SOA
+  content: 192.168.74.10. nobody.example.com. 2017112917 3600 900 604800 3600
+
+- domain_id: 1
+  name: api.hoge.jp
+  type: A
+  content: 157.7.106.44
+  ttl: 1800
+
+- domain_id: 1
+  name: api.hoge.jp
+  type: TXT
+  content: '"KZzQfsmyiHW7jX16H5pohcAQsVBJ4kBvmm01LH0EIHDS6mbCSQ4VNnjnNZiG9V8OqzHzCcSGtoQyy1rgOXJe3TM6R42uMzyxNBVB2zy2JmsvKyUTom4Gm0iGbWBJ5OrpDu8JRokL71SrZkg4T57cCoGYyGrfmkTKjiUlNmf1Q0HHu7jVrwfxsCB38ifaFs3hknsq9NtQPghWA0cjxRUbSC95Td5WTMFBQd3shBKQl6AjehK5Mi6oVjow8lMrPuc"'
+  ttl: 1800
+
+- domain_id: 1
+  name: mail.hoge.jp
+  type: MX
+  content: 192.168.74.15
+  ttl: 1800
+
+- domain_id: 1
+  name: rest.api.hoge.jp
+  type: CNAME
+  content: api.hoge.jp
+  ttl: 1800
+
+- domain_id: 2
+  name: "ふが.コム"
+  type: NS
+  content: 192.168.75.10
+  ttl: 1800
+
+- domain_id: 2
+  name: "ふが.コム"
+  type: SOA
+  content: 192.168.75.10. nobody.example.com. 2017121415 3600 900 604800 3600
+
+- domain_id: 2
+  name: "*.ふが.コム"
+  type: CNAME
+  content: "ふが.コム"

@@ -1,0 +1,17 @@
+# id                    INT AUTO_INCREMENT,
+# domain_id             INT DEFAULT NULL,
+# name                  VARCHAR(255) DEFAULT NULL,
+# type                  VARCHAR(10) DEFAULT NULL,
+# content               VARCHAR(64000) DEFAULT NULL,
+# ttl                   INT DEFAULT NULL,
+# prio                  INT DEFAULT NULL,
+# change_date           INT DEFAULT NULL,
+# disabled              TINYINT(1) DEFAULT 0,
+# ordername             VARCHAR(255) BINARY DEFAULT NULL,
+# auth                  TINYINT(1) DEFAULT 1,
+
+- domain_id: 1
+  name: hoge.jp
+  type: A
+  content: 192.168.11.1
+  ttl: 1111
